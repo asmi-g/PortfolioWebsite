@@ -2490,7 +2490,7 @@ input, select, textarea {
 	}
 
 /* Icon */
-
+	
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
@@ -2525,6 +2525,7 @@ input, select, textarea {
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
+
 
 		.icon.major {
 			width: 2.5em;
