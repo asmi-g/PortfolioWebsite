@@ -3250,37 +3250,37 @@ input, select, textarea {
 
 			}
 
-		.wrapper.alt {
-			background-color: #0000;
-		}
-
-		.wrapper.style1 {
-			background-color: #0000;
-		}
-
-		.wrapper.style1-alt {
-			background-color: #0000;
-		}
-
-		.wrapper.style2 {
-			background-color: #0000 ;
-		}
-
-		.wrapper.style2-alt {
-			background-color: #0000;
-		}
-
-		.wrapper.style3 {
-			background-color:  #0000; 
-		}
-
-		.wrapper.style4{
-			background-color: #9F86C0 #8d6a92;
-		}
-
-		.wrapper.style3-alt {
-			background-color: #0000;
-		}
+			.wrapper.alt {
+				background-color: #261c3e;
+			}
+	
+			.wrapper.style1 {
+				background-color: #231942;
+			}
+	
+			.wrapper.style1-alt {
+				background-color: #231942;
+			}
+	
+			.wrapper.style2 {
+				background-color: #3e3063 ;
+			}
+	
+			.wrapper.style2-alt {
+				background-color: #5E548E;
+			}
+	
+			.wrapper.style3 {
+				background-color:  hsl(262, 48%, 22%); 
+			}
+	
+			.wrapper.style4{
+				background-color: #9F86C0 #8d6a92;
+			}
+	
+			.wrapper.style3-alt {
+				background-color: #953d75;
+			}
 
 		.wrapper.fullscreen {
 			display: -moz-flex;
