@@ -7,6 +7,7 @@
 <html>
 	<head>
 		<title>Asmi Gujral Portfolio</title>
+		<link rel="icon" type="image/x-icon" href="/images/website-icon.png">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -34,13 +35,21 @@
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
-							<h1>Asmi Gujral Portfolio  <a href="https://github.com/asmi-g"><img src="images/githubicon.png" width="40px"> </a></h1>
-							<p> Hi! I'm an undergraduate mechatronics engineering student skilled in embedded systems,</br>
-								data science, as well as web development. Follow along with my portfolio! 
+							<h1>Asmi Gujral Portfolio  <a href="https://github.com/asmi-g" target=”_blank”><img src="images/githubicon.png" width="40px"> </a></h1>
+							<p> Hi! I'm an undergraduate mechatronics engineering student skilled in embedded</br>
+								systems, data science, as well as web development. 
+							</p>
+							<p>
+								I also love to learn about space sciences and ongoing advancements in <br> 
+								space technologies (indicated by the satellite in the website icon).
+							</p>
+							<p>
+								Follow along with my portfolio, as I highlight some of my work in firmware <br>
+								development and space systems!
 							</p>
 							<ul class="actions">
 								<li><a href="#one" class="button scrolly">Learn more</a></li>
-								<li><a href="images/Resume.pdf" class="button scrolly" download="AsmiGujral_Resume">Download Resume</a></li>
+								<li><a href="https://docs.google.com/document/d/1Wdu4btJio5fQazDT4O3OtzAow7aLE-En2_nF1xg_T2Q/edit?usp=sharing" class="button scrolly" target=”_blank” download="AsmiGujral_Resume">View Resume</a></li>
 							</ul>
 						</div>
 					</section>
@@ -106,7 +115,7 @@
 				<!-- One -->
 					<section id="one" class="wrapper style2 spotlights">
 						<section id="projone">
-							<a href="https://github.com/asmi-g/ElectriumFW" class="image"><img src="images/motorcontroller.png" alt="" data-position="center center" /></a>
+							<a href="https://github.com/asmi-g/ElectriumFW" target=”_blank” class="image"><img src="images/motorcontroller.png" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Electric Bike Motor Controller</h2>
@@ -114,13 +123,13 @@
 									<p>It incorporates various communication protocols like SPI, to detect and rectify over-current and over-thermal errors on the motor driver.</p>
 									<p>It was created as part of the Electrium design team, for the Spring 2023 Electric bike project.</p>
 									<ul class="actions">
-										<li><a href="https://github.com/asmi-g/ElectriumFW" class="button">GitHub Repo</a></li>
+										<li><a href="https://github.com/asmi-g/ElectriumFW" target=”_blank” class="button">GitHub Repo</a></li>
 									</ul>
 								</div>
 							</div>
 						</section>
 						<section id="projtwo">
-							<a href="https://github.com/asmi-g/WirelessControlNetwork" class="image"><img src="images/gpiocontrol.png" alt="" data-position="top center" /></a>
+							<a href="https://github.com/asmi-g/WirelessControlNetwork" target=”_blank” class="image"><img src="images/gpiocontrol.png" alt="" data-position="top center" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Wireless GPIO Control Network - In Progress</h2>
@@ -128,13 +137,13 @@
 									<p>I am currently working on integrating the websocket client with AWS API Gateway WebSockets and AWS Lambda in order to enable real-time GPIO pin control using the cloud services, and React.js to create a control panel for browser-based control.</p>
 									<p>I am also implementing error handling mechanisms in the AWS Lambda functions to ensure reliability and fault tolerance.</p>
 									<ul class="actions">
-										<li><a href="https://github.com/asmi-g/WirelessControlNetwork" class="button">GitHub Repo</a></li>
+										<li><a href="https://github.com/asmi-g/WirelessControlNetwork" target=”_blank” class="button">GitHub Repo</a></li>
 									</ul>
 								</div>
 							</div>
 						</section>
 						<section id="projthree">
-							<a href="https://github.com/asmi-g/Remote-Control-Monitoring" class="image"><img src="images/remotecontrol.png" alt="" data-position="25% 25%" /></a>
+							<a href="https://github.com/asmi-g/Remote-Control-Monitoring" target=”_blank” class="image"><img src="images/remotecontrol.png" alt="" data-position="25% 25%" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Remote Control & Monitoring System</h2>
@@ -142,13 +151,13 @@
 									<p>I also facilitated interrupt handling within the code, in order to detect any motion events with the PIR sensor and send pictures upon detection. </p>
 									<p>The DHT11 sensor was used to collect and transmit data, when a request for doing so is sent to the Telegram bot, with the project using Wi-Fi connectivity with the ESP32 for remote access and control.</p>
 									<ul class="actions">
-										<li><a href="https://github.com/asmi-g/Remote-Control-Monitoring" class="button">GitHub Repo</a></li>
+										<li><a href="https://github.com/asmi-g/Remote-Control-Monitoring" target=”_blank” class="button">GitHub Repo</a></li>
 									</ul>
 								</div>
 							</div>
 						</section>
 						<section id="projfour">
-							<a href="https://github.com/asmi-g/AsyncDataStreamer" class="image"><img src="images/stm32.png" alt="" data-position="center center" /></a>
+							<a href="https://github.com/asmi-g/AsyncDataStreamer" target=”_blank” class="image"><img src="images/stm32.png" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Asynchronous Data Streamer</h2>
@@ -156,13 +165,13 @@
 									<p>More specifically, the FreeRTOS kernel has been used to configure concurrency and varying task priority within tasks that poll each sensor for data.</p>
 									<p>Additionally, protocols including ADC channels, GPIO interrupts, and UART serial and SPI communication were used in order to facilitate data transmission to an SD card.</p>
 									<ul class="actions">
-										<li><a href="https://github.com/asmi-g/AsyncDataStreamer" class="button">GitHub Repo</a></li>
+										<li><a href="https://github.com/asmi-g/AsyncDataStreamer" target=”_blank” class="button">GitHub Repo</a></li>
 									</ul>
 								</div>
 							</div>
 						</section>
 						<section id="projfive">
-							<a href="https://github.com/asmi-g/WSST-CentrifugeRepo" class="image"><img src="images/motordac.png" alt="" data-position="top center" /></a>
+							<a href="https://github.com/asmi-g/WSST-CentrifugeRepo" target=”_blank” class="image"><img src="images/motordac.png" alt="" data-position="top center" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Motor Controller & Data Acquisition Subsystem - WSST</h2>
@@ -170,7 +179,7 @@
 									<p>This project is a subsystem that was created as part of the CANRGX7 submission on behalf of the Waterloo Space Soldering Team.</p>
 									<p>It uses protocols like I2C (accelerometer), SPI (SD module), and PWM (drives the motor) to run. Its planned use is to be mounted inside a centrifuge that will test soldering quality in microgravity, as part of the CANRGX7 competition in collaboration with the CSA (more details in the Experience section, under WSST).</p>
 									<ul class="actions">
-										<li><a href="https://github.com/asmi-g/WSST-CentrifugeRepo" class="button">GitHub Repo</a></li>
+										<li><a href="https://github.com/asmi-g/WSST-CentrifugeRepo" target=”_blank” class="button">GitHub Repo</a></li>
 									</ul>
 								</div>
 							</div>
@@ -194,8 +203,8 @@
 							<h2>Experience</h2>
 							<p>Below is some of my experience, both professional and extracurricular!</p>
 							<ul class="actions">
-								<li><a href="https://www.linkedin.com/in/asmigujral/" class="button">Connect with me on LinkedIn</a></li>
-								<li><a href="images/Resume.pdf" class="button" download="AsmiGujral_Resume">Download Resume</a></li>
+								<li><a href="https://www.linkedin.com/in/asmigujral/" class="button" target=”_blank”>Connect with me on LinkedIn</a></li>
+								<li><a href="https://docs.google.com/document/d/1Wdu4btJio5fQazDT4O3OtzAow7aLE-En2_nF1xg_T2Q/edit?usp=sharing" class="button" target=”_blank” download="AsmiGujral_Resume">View Resume</a></li>
 							</ul>
 							<div class="features">
 								<section1>
@@ -275,9 +284,9 @@
 									<ul class="contact">
 										<li>
 
-											<li><a href="https://www.linkedin.com/in/asmigujral/" class="button">LinkedIn</a></li>
-											<li><a href="https://www.github.com/asmi-g" class="button">GitHub</a></li>
-											<li><a href="mailto:akgujral@uwaterloo.ca" class="button">Email</a></li>
+											<li><a href="https://www.linkedin.com/in/asmigujral/" target=”_blank” class="button">LinkedIn</a></li>
+											<li><a href="https://www.github.com/asmi-g" target=”_blank” class="button">GitHub</a></li>
+											<li><a href="mailto:akgujral@uwaterloo.ca" target=”_blank” class="button">Email</a></li>
 											
 										</li>
 									</ul>
