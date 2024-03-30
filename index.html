@@ -182,6 +182,7 @@
 									<p>This project uses the L298N motor driver, a 24V gear motor, the MPU6050 accelerometer, an SD Module as well as an Arduino, to track and save acceleration and gyroscopic data while driving the motor.</p>
 									<p>This project is a subsystem that was created as part of the CANRGX7 submission on behalf of the Waterloo Space Soldering Team.</p>
 									<p>It uses protocols like I2C (accelerometer), SPI (SD module), and PWM (drives the motor) to run. Its planned use is to be mounted inside a centrifuge that will test soldering quality in microgravity, as part of the CANRGX7 competition in collaboration with the CSA (more details in the Experience section, under WSST).</p>
+									<p>With our current working design, I also Implemented bidirectional USART communication with the STM32 for motor control, to interface with a GUI developed using tkinter and pyserial. This helps us to control the motor speed, and whether it's on or off using the GUI, to prevent having to rebuild and reflash the code and having to hard code a PWM value.</p>
 									<p>To view the code for this project, along with its architecture diagram, please visit the GitHub Repo below.</p>
 									<ul class="actions">
 										<li><a href="https://github.com/asmi-g/WSST-CentrifugeRepo" target=”_blank” class="button">GitHub Repo</a></li>
