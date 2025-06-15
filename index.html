@@ -31,7 +31,7 @@
 
 		<!-- Wrapper -->
 			<div id="wrapper">
-
+				
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
@@ -49,7 +49,7 @@
 							</p>
 							<ul class="actions">
 								<li><a href="#one" class="button scrolly">Learn more</a></li>
-								<li><a href="https://docs.google.com/document/d/1Wdu4btJio5fQazDT4O3OtzAow7aLE-En2_nF1xg_T2Q/edit?usp=sharing" class="button scrolly" target=”_blank” download="AsmiGujral_Resume">View Resume & Document Portfolio</a></li>
+								<li><a href="https://docs.google.com/document/d/1fjH_BpcrRRfpY02vyCCYb17YGW5l7bH-04-sTsDlocc/edit?usp=sharing" class="button scrolly" target=”_blank” download="AsmiGujral_Resume">View Resume & Document Portfolio</a></li>
 							</ul>
 						</div>
 					</section>
@@ -61,6 +61,22 @@
 						<p>Below are some of my most recent projects in embedded systems. Click on "Learn More" for a more detailed description on each of them.</p>
 						<div class="features">
 							<section>
+								<span class="icon solid major fa-network-wired"></span>
+								<h3>Adaptive Signal Transmission & Real-time Analytics (ASTRA)</h3>
+								<p>Embedded Linux Development, Python, Bash, GNU Radio, Nvidia System-on-Modules (SoM's)</p>
+								<ul class="actions">
+									<li><a href="#projtwo" class="button scrolly">Learn more</a></li>
+								</ul>
+							</section>
+							<section>
+								<span class="icon solid major fa-space-shuttle"></span>
+								<h3>Controls Subsystem - Space Soldering Centrifuge Experiment</h3>
+								<p>C, Arduino, Gearmotor, L298N Motor Driver, MPU6050 Accelerometer, SD Module</p>
+								<ul class="actions">
+									<li><a href="#projfive" class="button scrolly">Learn more</a></li>
+								</ul>
+							</section>
+							<section>
 								<span class="icon solid major fa-biking"></span>
 								<h3>Electric Bike Motor Controller</h3>
 								<p>C, Nucleo STM32, DRV8301, BLDC motor, SimpleFOC</p>
@@ -69,40 +85,8 @@
 								</ul>
 							</section>
 							<section>
-								<span class="icon solid major fa-wifi"></span>
-								<h3>Wireless GPIO Control Network</h3>
-								<p>C++, ESP32, AWS API Gateway WebSockets, TypeScript, React.js, PlatformIO</p>
-								<ul class="actions">
-									<li><a href="#projtwo" class="button scrolly">Learn more</a></li>
-								</ul>
-							</section>
-							<section>
-								<span class="icon solid major fa-camera"></span>
-								<h3>Remote Control & Monitoring System</h3>
-								<p>C++, ESP32-CAM, Telegram Bot API, PIR Sensor, DHT11 Sensor</p>
-								<ul class="actions">
-									<li><a href="#projthree" class="button scrolly">Learn more</a></li>
-								</ul>
-							</section>
-							<section>
-								<span class="icon solid major fa-microchip"></span>
-								<h3>Asynchronous Data Streamer</h3>
-								<p>C, Nucleo STM32, FreeRTOS, SPI, UART, ADC, DHT11 Sensor, Potentiometer</p>
-								<ul class="actions">
-									<li><a href="#projfour" class="button scrolly">Learn more</a></li>
-								</ul>
-							</section>
-							<section>
-								<span class="icon solid major fa-space-shuttle"></span>
-								<h3>WSST - Motor Controller & Data Acquisition Subsystem</h3>
-								<p>C, Arduino, Gearmotor, L298N Motor Driver, MPU6050 Accelerometer, SD Module</p>
-								<ul class="actions">
-									<li><a href="#projfive" class="button scrolly">Learn more</a></li>
-								</ul>
-							</section>
-							<section>
 								<span class="icon solid major fa-satellite"></span>
-								<h3>UW Orbital - Weather Balloon Payload</h3>
+								<h3>Weather Balloon Payload - UW Orbital</h3>
 								<p>C, Arduino, ArduCAM, SD Module</p>
 								<ul class="actions">
 									<li><a href="#projsix" class="button scrolly">Learn more</a></li>
@@ -111,11 +95,41 @@
 						</div>
 					</div>
 				</section>
-
+				
 				<!-- One -->
 					<section id="one" class="wrapper style2 spotlights">
+						<section id="projtwo">
+							<a href="https://github.com/asmi-g/ASTRA-GeneralRepo" target=”_blank” class="image"><img src="images/ASTRA-Payload.jpg" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Adaptive Signal Transmission & Real-time Analytics (ASTRA) - Stratospheric Experiment</h2>
+									<p>This project uses the an Nvidia Jetson SoM, 2 HackRF SDRs, and the MCP9808 temperature sensor, to analyze and filter recieved signal data with temperature logging capabilities.</p>
+									<p>This project was created as part of the CANSBX7 submission on behalf of the Waterloo Space Research Team.</p>
+									<p>It uses SDR scripts from GNU Radio RX and TX workflows, bash systemd scripts for automation, and protocols like I2C to run. Its planned to be launched on a high-altitude stratospheric balloon to test the extent to which the system can filter the signal, as part of the CANSBX7 competition in collaboration with the CSA.</p>
+									<p>To view the code for this project, along with its architecture diagram, please visit the GitHub Repo below.</p>									<ul class="actions">
+										<li><a href="https://github.com/asmi-g/ASTRA-GeneralRepo" target=”_blank” class="button">GitHub Repo</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section id="projfive">
+							<a href="https://github.com/asmi-g/WSST-CentrifugeRepo" target=”_blank” class="image"><img src="images/wsst-payload.jpg" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Controls Subsystem - Space Soldering Centrifuge Experiment</h2>
+									<p>This project uses the L298N motor driver, a 24V gear motor, the MPU6050 accelerometer, an SD Module as well as an Arduino, to track and save acceleration and gyroscopic data while driving the motor.</p>
+									<p>This project is a subsystem that was created as part of the CANRGX7 submission on behalf of the Waterloo Space Soldering Team.</p>
+									<p>It uses protocols like I2C (accelerometer), SPI (SD module), and PWM (drives the motor) to run. Its planned use is to be mounted inside a centrifuge that will test soldering quality in microgravity, as part of the CANRGX7 competition in collaboration with the CSA (more details in the Experience section, under WSST).</p>
+									<p>With our current working design, I also Implemented bidirectional USART communication with the STM32 for motor control, to interface with a GUI developed using tkinter and pyserial. This helps us to control the motor speed, and whether it's on or off using the GUI, to prevent having to rebuild and reflash the code and having to hard code a PWM value.</p>
+									<p>To view the code for this project, along with its architecture diagram, please visit the GitHub Repo below.</p>
+									<ul class="actions">
+										<li><a href="https://github.com/asmi-g/WSST-CentrifugeRepo" target=”_blank” class="button">GitHub Repo</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
 						<section id="projone">
-							<a href="https://github.com/asmi-g/ElectriumFW" target=”_blank” class="image"><img src="images/motorcontroller.png" alt="" data-position="center center" /></a>
+							<a href="https://github.com/asmi-g/ElectriumFW" target=”_blank” class="image"><img src="images/bike.png" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Electric Bike Motor Controller</h2>
@@ -129,69 +143,8 @@
 								</div>
 							</div>
 						</section>
-						<section id="projtwo">
-							<a href="https://github.com/asmi-g/WirelessControlNetwork" target=”_blank” class="image"><img src="images/gpiocontrol.png" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Wireless GPIO Control Network - In Progress</h2>
-									<p>For this project, I used the ESP32, AWS API Gateway WebSockets, React.js, and Typescript to develop an ESP32 WebSocket client in C/C++ using PlatformIO.</p>
-									<p>I am currently working on integrating the websocket client with AWS API Gateway WebSockets and AWS Lambda in order to enable real-time GPIO pin control using the cloud services, and React.js to create a control panel for browser-based control.</p>
-									<p>I am also implementing error handling mechanisms in the AWS Lambda functions to ensure reliability and fault tolerance.</p>
-									<p>To view the code for this project, along with its functional diagrams, please visit the GitHub Repo below.</p>
-									<ul class="actions">
-										<li><a href="https://github.com/asmi-g/WirelessControlNetwork" target=”_blank” class="button">GitHub Repo</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section id="projthree">
-							<a href="https://github.com/asmi-g/Remote-Control-Monitoring" target=”_blank” class="image"><img src="images/remotecontrol.png" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Remote Control & Monitoring System</h2>
-									<p>For this project, I configured the ESP32-CAM with a PIR and a DHT11 Humidity and Temperature sensor, in sending HTTP requests to the Telegram API.</p>
-									<p>I also facilitated interrupt handling within the code, in order to detect any motion events with the PIR sensor and send pictures upon detection. </p>
-									<p>The DHT11 sensor was used to collect and transmit data, when a request for doing so is sent to the Telegram bot, with the project using Wi-Fi connectivity with the ESP32 for remote access and control.</p>
-									<p>To view the code for this project, along with its functional software and wiring diagrams, please visit the GitHub Repo below.</p>
-									<ul class="actions">
-										<li><a href="https://github.com/asmi-g/Remote-Control-Monitoring" target=”_blank” class="button">GitHub Repo</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section id="projfour">
-							<a href="https://github.com/asmi-g/AsyncDataStreamer" target=”_blank” class="image"><img src="images/stm32.png" alt="" data-position="center center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Asynchronous Data Streamer</h2>
-									<p>This asynchronous data streamer enables real-time data acquisition using the C, STM32, FreeRTOS, the DHT11 sensor, a potentiometer, an SD module, as well as various communication protocols like SPI, UART and ADC.</p>
-									<p>More specifically, the FreeRTOS kernel has been used to configure concurrency and varying task priority within tasks that poll each sensor for data.</p>
-									<p>Additionally, protocols including ADC channels, GPIO interrupts, and UART serial and SPI communication were used in order to facilitate data transmission to an SD card.</p>
-									<p>To view the code for this project, along with its functional software and wiring diagrams, please visit the GitHub Repo below.</p>
-									<ul class="actions">
-										<li><a href="https://github.com/asmi-g/AsyncDataStreamer" target=”_blank” class="button">GitHub Repo</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section id="projfive">
-							<a href="https://github.com/asmi-g/WSST-CentrifugeRepo" target=”_blank” class="image"><img src="images/motor-dac.png" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Motor Controller & Data Acquisition Subsystem - WSST</h2>
-									<p>This project uses the L298N motor driver, a 24V gear motor, the MPU6050 accelerometer, an SD Module as well as an Arduino, to track and save acceleration and gyroscopic data while driving the motor.</p>
-									<p>This project is a subsystem that was created as part of the CANRGX7 submission on behalf of the Waterloo Space Soldering Team.</p>
-									<p>It uses protocols like I2C (accelerometer), SPI (SD module), and PWM (drives the motor) to run. Its planned use is to be mounted inside a centrifuge that will test soldering quality in microgravity, as part of the CANRGX7 competition in collaboration with the CSA (more details in the Experience section, under WSST).</p>
-									<p>With our current working design, I also Implemented bidirectional USART communication with the STM32 for motor control, to interface with a GUI developed using tkinter and pyserial. This helps us to control the motor speed, and whether it's on or off using the GUI, to prevent having to rebuild and reflash the code and having to hard code a PWM value.</p>
-									<p>To view the code for this project, along with its architecture diagram, please visit the GitHub Repo below.</p>
-									<ul class="actions">
-										<li><a href="https://github.com/asmi-g/WSST-CentrifugeRepo" target=”_blank” class="button">GitHub Repo</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
 						<section id="projsix">
-							<a class="image"><img src="images/weather-balloon.png" alt="" data-position="25% 25%" /></a>
+							<a class="image"><img src="images/balloon.png" alt="" data-position="25% 25%" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Weather Balloon Payload - UW Orbital</h2>
@@ -210,8 +163,59 @@
 							<p>Below is some of my experience, both professional and extracurricular!</p>
 							<ul class="actions">
 								<li><a href="https://www.linkedin.com/in/asmigujral/" class="button" target=”_blank”>Connect with me on LinkedIn</a></li>
-								<li><a href="https://docs.google.com/document/d/1Wdu4btJio5fQazDT4O3OtzAow7aLE-En2_nF1xg_T2Q/edit?usp=sharing" class="button" target=”_blank” download="AsmiGujral_Resume">View Resume & Document Portfolio</a></li>
+								<li><a href="https://docs.google.com/document/d/1fjH_BpcrRRfpY02vyCCYb17YGW5l7bH-04-sTsDlocc/edit?usp=sharing" class="button" target=”_blank” download="AsmiGujral_Resume">View Resume & Document Portfolio</a></li>
 							</ul>
+							
+							<div class="features">
+								<section1>
+									<span class="icon solid major fa-space-shuttle"></span>
+									<h3>Embedded Systems Team Lead</h3>
+									<h5>Waterloo Space Research Team</h5>
+									<p>Oct 2024 - Present</p>
+									<ul>
+										<li>Led a team of 4 developers in building a payload for the CANSBX-7 competition, set for autonomous stratospheric deployment</li>
+										<li>Architected the software system for an SDR-based ML pipeline, defining logic to process transmissions at high altitudes</li>
+										<li>Implemented filtering pipelines with SDR communication on GNU Radio to process 20 MHz signals for wavelet denoising</li>
+										<li>Configured the NVIDIA Jetson Linux SoM for autonomous operation, scripting services in bash to reduce deployment by 40%</li>
+										<li>Developed firmware for a microgravity experiment, placing 1st in the CANRGX-7 competition, as awarded by the Canadian Space Agency</li>
+									</ul>
+									<h3>Embedded Systems R&D Designer</h3>
+									<p>Jan 2024 - Sept 2024</p>
+									<ul>
+										<li>Designed the firmware architecture for the team’s centrifuge project, scoping out the required firmware and hardware systems to efficiently integrate with on-board subsystems</li>
+										<li>Administered the centrifuge’s data acquisition and motor controller subsystem in C++, enabling SPI, I2C, and PWM protocols to interface with components including a gearmotor, L298N motor driver, accelerometer, and an SD module with an Arduino</li>
+										<li>Implemented bidirectional USART communication with STM32 for motor control, to interface with a GUI developed using tkinter and pyserial for enhanced speed adjustment flexibility</li>
+									</ul>
+								</section1>
+							</div>
+							<div class="features">
+								<section1>
+									<span class="icon solid major fa-microchip"></span>
+									<h3>Embedded Software Development Intern</h3>
+									<h5>AlumaPower</h5>
+									<p>May 2025 - Present</p>
+									<ul>
+										<li>Built C firmware for STM32 and distributed controllers, enabling communication and data logging; reducing errors by 55%</li>
+										<li>Deployed bridged MQTT communication across edge (Linux) and cloud (Azure) brokers, enabling bidirectional industrial IoT</li>
+										<li>Designed and integrated a CAN-MQTT interface layer on a custom Linux system, enabling reliable messaging</li>
+										<li>Automated board deployment via scripted services and Linux cron jobs for autonomous use, reducing manual boot time by 67%</li>
+										<li>Contributed production-level code in optimizing PID pump control logic, resolving sensor mapping issues, and eliminating faults</li>
+									</ul>
+								</section1>
+							</div>
+							<div class="features">
+								<section1>
+									<span class="icon solid major fa-server"></span>
+									<h3>Digital Systems Engineering Intern</h3>
+									<h5>Canadian Space Agency</h5>
+									<p>Sept 2024 - Feb 2025</p>
+									<ul>
+										<li>Supporting architecture modeling by analyzing system requirements, enhancing digital workflows for space initiatives</li>
+										<li>Developing reporting tools in Python, streamlining data collection and visualization, leading to a 25% reduction in reporting time</li>
+										<li>Leveraging architecture frameworks and tools (TOGAF, SysML) for digital transformation, improving system performance by 15%</li>
+									</ul>
+								</section1>
+							</div>
 							<div class="features">
 								<section1>
 									<span class="icon solid major fa-code"></span>
@@ -219,25 +223,8 @@
 									<h5>OpenText</h5>
 									<p>Jan 2024 - Apr 2024</p>
 									<ul>
-										<li>Implemented intuitive solutions using AppWorks low-code platform for software functional design, emphasizing UI and moderate complexity calculations</li>
 										<li>Led end-to-end software development and conducted quality assurance, including advanced troubleshooting and Python API script development for optimised system data communication</li>
 										<li>Applied advanced SQL and VBA techniques for in-depth system analysis, and executed seamless data transitions between systems, improving overall data management efficiency using PowerShell</li>
-										<li>Conducted regression testing for various software platforms within the UAT cycle in ALM (Application Lifecycle Management)</li>
-									</ul>
-								</section1>
-							</div>
-							<div class="features">
-								<section1>
-									<span class="icon solid major fa-space-shuttle"></span>
-									<h3>Embedded Systems R&D Designer</h3>
-									<h5>Waterloo Space Soldering Team</h5>
-									<p>Jan 2024 - Present</p>
-									<ul>
-										<li>Designed the firmware architecture for the team’s centrifuge project, scoping out the required firmware and hardware systems to efficiently integrate with on-board subsystems</li>
-										<li>Administered the centrifuge’s data acquisition and motor controller subsystem in C++, enabling SPI, I2C, and PWM protocols to interface with components including a gearmotor, L298N motor driver, accelerometer, and an SD module with an Arduino</li>
-										<li>Implemented bidirectional USART communication with STM32 for motor control, to interface with a GUI developed using tkinter and pyserial for enhanced speed adjustment flexibility</li>
-										<li>Facilitated requirements gathering for the centrifuge, which is a soldering experiment selected for the Canadian Reduced Gravity Experiment 2024 to be tested aboard the
-											National Research Council’s Falcon 20 parabolic aircraft in collaboration with the Canadian Space Agency (CSA)</li>
 									</ul>
 								</section1>
 							</div>
@@ -249,7 +236,7 @@
 									<p>May 2023 - Aug 2023</p>
 									<ul>
 										<li>Implemented and maintained database components through Intune and leveraged Azure services for optimised user performance and security, having resolved 50+ request tickets and resulting in a more streamlined asset management process</li>
-										<li>Developed Python-based PowerShell scripts to automate routine tasks, resulting in a significant reduction of manual effort, and an increased operational efficiency by 40%</li>
+										<li>Developed Python-based PowerShell scripts for automation, resulting in an increased operational efficiency by 40%</li>
 									</ul>
 								</section1>
 							</div>
@@ -260,10 +247,8 @@
 									<h5>University of Waterloo Orbital Design Team</h5>
 									<p>Sep 2022 - Sep 2023</p>
 									<ul>
-										<li>Designed the Cube Satellite’s secondary payload architecture, scoping out the required firmware and hardware systems to efficiently integrate with on-board subsystem</li>
-										<li>Developed firmware with RTOS for the satellite’s primary and secondary payload manager in C, using task handlers and command IDs to capture pictures with the on-board cameras</li>
-										<li>Facilitated systems design for a weather balloon project, in order to program an Arduino to autonomously take pictures in timed intervals through a SPI bus interface with an ArduCAM device, as well as an SD card module</li>
-										<li>Administered various embedded communication protocols and synthesized the PC104 header stack for the team’s Cube Satellite in order to integrate on-board subsystems</li>
+										<li>Designed the Cube Satellite’s payload architecture, identifyinh firmware and hardware requirements for the on-board subsystems</li>
+										<li>Developed firmware with RTOS for the satellite’s primary and secondary payload manager in C, to capture pictures on-board</li>
 									</ul>
 								</section1>
 							</div>
@@ -272,10 +257,10 @@
 									<span class="icon solid major fa-cog"></span>
 									<h3>Front End Development Lead</h3>
 									<h5>Students for the Exploration and Development of Space (SEDS), Canada</h5>
-									<p>May 2023 - Present</p>
+									<p>May 2023 - May 2024</p>
 									<ul>
-										<li>Developed interactive webpages from site requests using HTML, CSS and JavaScript with WordPress and Elementor, critically leveraging UI/UX principles for optimal usability, and increasing site traffic by 57%</li>
-										<li>Introduced Jira as a team-wide ticketing management system, streamlining workflows, and enhancing the efficiency of site request implementation</li>
+										<li>Developed interactive webpages using HTML, CSS and JavaScript with WordPress, increasing site traffic by 57%</li>
+										<li>Introduced Jira as a team-wide ticketing management system, enhancing the efficiency of site request implementation</li>
 									</ul>
 								</section1>
 							</div>
