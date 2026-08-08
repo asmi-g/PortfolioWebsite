@@ -4,9 +4,9 @@
 :root {
   --font-body: 'Manrope', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --font-display: 'Sora', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  --color-ink: #3A405A;
-  --color-soft-blue: #AEC5EB;
-  --color-cream: #F9DEC9;
+  --color-ink: #432818;
+  --color-soft-blue: #7e9c52;
+  --color-cream: #f3cecd;
   --color-rose: #E9AFA3;
   --color-earth: #685044;
 }
@@ -16,7 +16,7 @@ body {
   min-width: 320px;
   font-family: var(--font-body);
   color: var(--color-ink);
-  background-color: #ffffff;
+  background-color: #f8f4f3;
 }
 
 h1,

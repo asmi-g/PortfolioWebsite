@@ -2,11 +2,11 @@ import profilePic from '../assets/profile-pic.jpg'
 
 function HeroSection() {
   return (
-    <section className="hero-grid relative overflow-hidden rounded-3xl border border-[#AEC5EB] bg-[#F9DEC9] p-8 shadow-sm md:grid md:grid-cols-[1fr_280px] md:gap-10 md:p-12">
+    <section className="hero-grid relative overflow-hidden rounded-3xl border border-[#7e9c52] bg-[#f3cecd] p-8 shadow-sm md:grid md:grid-cols-[1fr_280px] md:gap-10 md:p-12">
       <div className="relative z-10">
          
-        <h1 className="mt-5 max-w-3xl text-4xl font-black leading-tight text-[#3A405A] md:text-6xl">
-          Hi, I&apos;m Asmi Gujral.
+        <h1 className="mt-5 max-w-3xl text-4xl font-black leading-tight text-[#432818] md:text-6xl">
+          Hi! I&apos;m Asmi Gujral.
           {/*<span className="hero-accent-text"> I&apos;m a [Your Role].</span>*/}
         </h1>
 
@@ -20,13 +20,13 @@ function HeroSection() {
         <div className="mt-8 flex flex-wrap gap-3">
           <a
             href="#projects"
-            className="inline-flex items-center rounded-lg bg-[#3A405A] px-5 py-2.5 text-sm font-semibold text-[#F9DEC9] transition hover:-translate-y-0.5 hover:bg-[#685044]"
+            className="inline-flex items-center rounded-lg bg-[#432818] px-5 py-2.5 text-sm font-semibold text-[#f3cecd] transition hover:-translate-y-0.5 hover:bg-[#685044]"
           >
             View Projects
           </a>
           <a
             href="#contact"
-            className="inline-flex items-center rounded-lg border border-[#AEC5EB] bg-[#AEC5EB] px-5 py-2.5 text-sm font-semibold text-[#3A405A] transition hover:-translate-y-0.5 hover:border-[#E9AFA3] hover:bg-[#E9AFA3]"
+            className="inline-flex items-center rounded-lg border border-[#7e9c52] bg-[#7e9c52] px-5 py-2.5 text-sm font-semibold text-[#f3cecd] transition hover:-translate-y-0.5 hover:border-[#E9AFA3] hover:bg-[#E9AFA3]"
           >
             Contact Me
           </a>
@@ -35,7 +35,7 @@ function HeroSection() {
       </div>
 
       <div className="relative z-10 mt-8 grid place-items-center md:mt-0">
-        <div className="hero-float rounded-[2rem] border border-[#AEC5EB] bg-[#F9DEC9] p-4 shadow-lg">
+        <div className="hero-float rounded-[2rem] border border-[#7e9c52] bg-[#f3cecd] p-4 shadow-lg">
           <img
             src={profilePic}
             alt="Profile"

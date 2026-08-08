@@ -11,7 +11,7 @@ const experiences = [
     company: 'Waterloo Space Research Team',
     period: 'Jan. 2024 - Aug. 2026',
     summary:
-      'Leading a team of 3 embedded software developers to interface hardware and facilitate experiment controls, for a reduced gravity experiment challenge (CANRGX9).',
+      'Led a team of 3 embedded software developers to interface hardware and facilitate experiment controls, for a reduced gravity experiment challenge (CANRGX9).',
   },
   {
     role: 'Embedded Software Development Intern',
@@ -46,17 +46,17 @@ const experiences = [
 
 function ExperienceSection() {
   return (
-    <section id="experience" className="space-y-6 rounded-2xl border border-[#AEC5EB] bg-[#F9DEC9] p-8 shadow-sm">
+    <section id="experience" className="space-y-6 rounded-2xl border border-[#7e9c52] bg-[#f3cecd] p-8 shadow-sm">
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <div>
-          <h2 className="text-2xl font-semibold text-[#3A405A]">Experience</h2>
+          <h2 className="text-2xl font-semibold text-[#432818]">Experience</h2>
           <p className="mt-2 text-[#685044]">Feel free to check out my resume for more details!</p>
         </div>
 
         <a
           href="/src/assets/resume.pdf"
           download
-          className="inline-flex items-center justify-center rounded-lg bg-[#3A405A] px-5 py-2.5 text-sm font-medium text-[#F9DEC9] transition hover:bg-[#685044]"
+          className="inline-flex items-center justify-center rounded-lg bg-[#432818] px-5 py-2.5 text-sm font-medium text-[#f3cecd] transition hover:bg-[#685044]"
         >
           Download Resume (PDF)
         </a>
@@ -64,9 +64,9 @@ function ExperienceSection() {
 
       <div className="grid gap-4 md:grid-cols-2">
         {experiences.map((experience) => (
-          <article key={`${experience.role}-${experience.company}`} className="rounded-xl border border-[#E9AFA3] bg-[#F9DEC9] p-5">
+          <article key={`${experience.role}-${experience.company}`} className="rounded-xl border border-[#E9AFA3] bg-[#f3cecd] p-5">
             <p className="text-xs font-medium uppercase tracking-wide text-[#685044]">{experience.period}</p>
-            <h3 className="mt-2 text-lg font-semibold text-[#3A405A]">{experience.role}</h3>
+            <h3 className="mt-2 text-lg font-semibold text-[#432818]">{experience.role}</h3>
             <p className="text-sm text-[#685044]">{experience.company}</p>
             <p className="mt-3 text-sm leading-relaxed text-[#685044]">{experience.summary}</p>
           </article>

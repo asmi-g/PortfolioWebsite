@@ -9,19 +9,19 @@ function ProjectsSection({ projects }) {
 
   return (
     <section id="projects" className="space-y-6">
-      <h2 className="text-2xl font-semibold text-[#3A405A]">Projects</h2>
+      <h2 className="text-2xl font-semibold text-[#432818]">Projects</h2>
       <div className="flex w-full flex-col gap-5">
         {projects.map((project) => (
           <button
             key={project.title}
             type="button"
             onClick={() => toggleProject(project.title)}
-            className="w-full rounded-xl border border-[#AEC5EB] bg-[#F9DEC9] p-5 text-left shadow-sm transition hover:-translate-y-0.5 hover:bg-[#E9AFA3] hover:shadow-md"
+            className="w-full rounded-xl border border-[#7e9c52] bg-[#f3cecd] p-5 text-left shadow-sm transition hover:-translate-y-0.5 hover:bg-[#E9AFA3] hover:shadow-md"
           >
 
             <div className="flex items-center justify-between">
-              <span><h3 className="text-lg font-semibold text-[#3A405A]">{project.title}</h3></span>
-              <span>{openProject === project.title ? 'Hide' : 'Click to Expand'}</span>
+              <span><h3 className="text-lg font-semibold text-[#432818]">{project.title}</h3></span>
+              <span>{openProject === project.title ? 'Click to Hide' : 'Click to Expand'}</span>
             </div>
 
             <div>{project.tech}</div>
@@ -29,7 +29,7 @@ function ProjectsSection({ projects }) {
               href={project.repo}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-4 inline-block rounded-md bg-[#AEC5EB] px-3 py-1 font-semibold text-[#3A405A] hover:bg-[#E9AFA3]"
+              className="mt-4 inline-block rounded-md bg-[#7e9c52] px-3 py-1 font-semibold text-[#432818] hover:bg-[#E9AFA3]"
             >
               View Repository
             </a>
