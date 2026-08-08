@@ -1,3 +1,9 @@
+import wsst2026 from '../assets/wsst-2026.png'
+import moss from '../assets/moss.png'
+import astra from '../assets/astra-2.png'
+import wsst2024 from '../assets/wsst-2024.jpg'
+import ebike from '../assets/ebike-motorcontroller.png'
+
 export const projects = [
   
   {
@@ -11,7 +17,7 @@ export const projects = [
                 ],
     tech: 'Novel Automated Space Soldering Solution · Embedded Systems · STM32',
     repo: 'https://github.com/asmi-g/WSST-CentrifugeRepo-2026',
-    image: '/src/assets/wsst-2026.png',
+    image: wsst2026,
   },
   {
     title: 'Accessible Processor-In-The-Loop Testbed (IAC 2026)',
@@ -23,7 +29,7 @@ export const projects = [
     ],
     tech: 'Accessible GNC Testbed · Embedded Systems · STM32',
     repo: 'https://github.com/asmi-g/quasaris_moss',
-    image: '/src/assets/moss.png',
+    image: moss,
   },
   {
     title: 'Adaptive Signal Transmission Analysis System 2025 (CANSBX7)',
@@ -34,7 +40,7 @@ export const projects = [
                 ],
     tech: 'Novel RF Communication Filtering · Embedded Linux · Nvidia Jetson · Python',
     repo: 'https://github.com/asmi-g/ASTRA-GeneralRepo',
-    image: '/src/assets/astra-2.png',
+    image: astra,
   },
   {
     title: 'Soldering Centrifuge System 2024 (CANRGX7)',
@@ -46,7 +52,7 @@ export const projects = [
                 ],
     tech: 'Novel Space Soldering Solution · Embedded Systems · Arduino · STM32',
     repo: 'https://github.com/asmi-g/WSST-CentrifugeRepo',
-    image: ['/src/assets/wsst-2024.jpg'],
+    image: wsst2024,
   },
   /*{
     title: 'Linux System Control Module',
@@ -62,6 +68,6 @@ export const projects = [
     ],
     tech: 'Student-Led Electric Bike Controls · Embedded Systems · STM32',
     repo: 'https://github.com/asmi-g/ElectriumFW',
-    image: '/src/assets/ebike-motorcontroller.png',
+    image: ebike,
   },
 ]

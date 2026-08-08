@@ -1,3 +1,5 @@
+import resume from '../assets/resume.pdf'
+
 const experiences = [
   {
     role: 'Software Engineering Intern',
@@ -54,7 +56,7 @@ function ExperienceSection() {
         </div>
 
         <a
-          href="/src/assets/resume.pdf"
+          href={resume}
           download
           className="inline-flex items-center justify-center rounded-lg bg-[#432818] px-5 py-2.5 text-sm font-medium text-[#f3cecd] transition hover:bg-[#685044]"
         >
