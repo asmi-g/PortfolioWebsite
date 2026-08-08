@@ -4,6 +4,7 @@ import ExperienceSection from './components/ExperienceSection'
 import Header from './components/Header'
 import HeroSection from './components/HeroSection'
 import ProjectsSection from './components/ProjectsSection'
+import AwardsSection from './components/AwardsSection'
 import { projects } from './data/projects'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <HeroSection />
         <ProjectsSection projects={projects} />
         <ExperienceSection />
+        <AwardsSection />
         <AboutSection />
         <ContactSection />
       </main>

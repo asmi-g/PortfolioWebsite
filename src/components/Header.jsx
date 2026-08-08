@@ -15,6 +15,11 @@ function Header() {
             </a>
           </li>
           <li>
+            <a href="#awards" className="transition hover:text-[#432818]">
+              Awards & Certifications
+            </a>
+          </li>
+          <li>
             <a href="#about" className="transition hover:text-[#432818]">
               About
             </a>
