@@ -1,17 +1,46 @@
 const experiences = [
   {
-    role: '[Role Title]',
-    company: '[Company / Organization]',
-    period: '[Month Year - Month Year]',
+    role: 'Software Engineering Intern',
+    company: 'MDA Space',
+    period: 'Sept. 2025 - Aug. 2026',
     summary:
-      'Add 1-2 lines about what you built, owned, or improved in this role.',
+      'Developed and debugged multi-fidelity robotic arm simulations on Linux clusters for dynamic analysis and 7 DoF kinematic modeling.',
   },
   {
-    role: '[Role Title]',
-    company: '[Company / Organization]',
-    period: '[Month Year - Present]',
+    role: 'Embedded Systems Team Lead',
+    company: 'Waterloo Space Research Team',
+    period: 'Jan. 2024 - Aug. 2026',
     summary:
-      'Add impact details here, such as outcomes, metrics, or technologies used.',
+      'Leading a team of 3 embedded software developers to interface hardware and facilitate experiment controls, for a reduced gravity experiment challenge (CANRGX9).',
+  },
+  {
+    role: 'Embedded Software Development Intern',
+    company: 'AlumaPower Corp.',
+    period: 'May. 2025 - Aug. 2025',
+    summary:
+      'Built C and networking firmware for STM32, sensors, and distributed controllers, enabling communication and data logging; reducing errors by 55%.',
+  },
+  {
+    role: 'Digital Systems Engineering Intern',
+    company: 'Canadian Space Agency',
+    period: 'Sept. 2024 - Feb. 2025',
+    summary:
+      'Supported architecture modeling by analyzing system requirements, enhancing digital workflows for space initiatives and missions.',
+  },
+  {
+    role: 'Embedded Software Engineering Student',
+    company: 'Cooperative & Adaptive Mechatronic Systems (CAMS) Lab - University of Waterloo',
+    period: 'May. 2024 - Aug. 2024',
+    summary:
+      'Led the creation of a comprehensive drone system architecture, integrating hardware with ArduPilot for speed, and navigation controls.',
+  },
+  {
+    role: 'Software Automation Intern',
+    company: 'OpenText',
+    period: 'Jan. 2024 - Apr. 2024',
+    summary: [
+      'Led end-to-end software quality assurance, including advanced troubleshooting and Python API script development for optimised system data communication.',
+    ]
   },
 ]
 
@@ -21,11 +50,11 @@ function ExperienceSection() {
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <div>
           <h2 className="text-2xl font-semibold text-[#3A405A]">Experience</h2>
-          <p className="mt-2 text-[#685044]">Use this section to highlight internships, leadership, or research experience.</p>
+          <p className="mt-2 text-[#685044]">Feel free to check out my resume for more details!</p>
         </div>
 
         <a
-          href="/resume.pdf"
+          href="/src/assets/resume.pdf"
           download
           className="inline-flex items-center justify-center rounded-lg bg-[#3A405A] px-5 py-2.5 text-sm font-medium text-[#F9DEC9] transition hover:bg-[#685044]"
         >

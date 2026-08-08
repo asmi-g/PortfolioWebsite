@@ -13,9 +13,9 @@ function App() {
 
       <main className="mx-auto flex w-full max-w-5xl flex-col gap-20 px-6 py-14">
         <HeroSection />
-        <AboutSection />
-        <ExperienceSection />
         <ProjectsSection projects={projects} />
+        <ExperienceSection />
+        <AboutSection />
         <ContactSection />
       </main>
     </div>
