@@ -55,14 +55,30 @@ function AwardsSection() {
 
       <div className="grid gap-4 md:grid-cols-2">
         {awards.map((award) => (
-          <article key={`${award.name}-${award.awardingBody}`} className="rounded-xl border border-[#E9AFA3] bg-[#f3cecd] p-5">
-            <p className="text-xs font-medium uppercase tracking-wide text-[#685044]">{award.period}</p>
-            <h3 className="mt-2 text-lg font-semibold text-[#432818]">{award.name}</h3>
-            <p className="text-sm text-[#685044]">{award.awardingBody}</p>
-            <p className="mt-3 text-sm leading-relaxed text-[#685044]">{award.summary}</p>
-          </article>
+            <article
+            key={`${award.name}-${award.awardingBody}`}
+            className="group rounded-xl border border-[#7e9c52] border-l-4 border-l-[#7e9c52] bg-[#FAF3F0] p-5 transition-all hover:-translate-y-0.5 hover:shadow-md"
+            >
+            <div className="flex items-center justify-between gap-3">
+                <p className="inline-flex rounded-full bg-[#F3CECD] px-2.5 py-1 text-xs font-semibold tracking-wide text-[#685044]">
+                {award.period}
+                </p>
+            </div>
+
+            <h3 className="mt-3 text-lg font-semibold text-[#432818]">
+                {award.name}
+            </h3>
+
+            <p className="mt-1 text-sm font-medium text-[#8A665A]">
+                {award.awardingBody}
+            </p>
+
+            <p className="mt-3 text-sm leading-relaxed text-[#685044]">
+                {award.summary}
+            </p>
+            </article>
         ))}
-      </div>
+        </div>
     </section>
   )
 }
