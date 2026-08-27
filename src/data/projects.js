@@ -1,4 +1,4 @@
-import wsst2026 from '../assets/wsst-2026.png'
+import wsst2026 from '../assets/wsst-2026-2.jpg'
 import moss from '../assets/moss.png'
 import astra from '../assets/astra-2.png'
 import wsst2024 from '../assets/wsst-2024.jpg'
