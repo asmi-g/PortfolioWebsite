@@ -1,4 +1,5 @@
-import wsst2026 from '../assets/wsst-2026-2.jpg'
+import wsst2026 from '../assets/wsst-2026-2.png'
+import wsst2026flight from '../assets/wsst-2026-flight.jpg'
 import moss from '../assets/moss.png'
 import astra from '../assets/astra-2.png'
 import wsst2024 from '../assets/wsst-2024.jpg'
@@ -17,7 +18,7 @@ export const projects = [
                 ],
     tech: 'Novel Automated Space Soldering Solution · Embedded Systems · STM32',
     repo: 'https://github.com/asmi-g/WSST-CentrifugeRepo-2026',
-    image: wsst2026,
+    images: [wsst2026flight, wsst2026],
   },
   {
     title: 'Accessible Processor-In-The-Loop Testbed (IAC 2026)',
@@ -29,7 +30,7 @@ export const projects = [
     ],
     tech: 'Accessible GNC Testbed · Embedded Systems · STM32',
     repo: 'https://github.com/asmi-g/quasaris_moss',
-    image: moss,
+    images: [moss],
   },
   {
     title: 'Adaptive Signal Transmission Analysis System 2025 (CANSBX7)',
@@ -40,7 +41,7 @@ export const projects = [
                 ],
     tech: 'Novel RF Communication Filtering · Embedded Linux · Nvidia Jetson · Python',
     repo: 'https://github.com/asmi-g/ASTRA-GeneralRepo',
-    image: astra,
+    images: [astra],
   },
   {
     title: 'Soldering Centrifuge System 2024 (CANRGX7)',
@@ -52,13 +53,13 @@ export const projects = [
                 ],
     tech: 'Novel Space Soldering Solution · Embedded Systems · Arduino · STM32',
     repo: 'https://github.com/asmi-g/WSST-CentrifugeRepo',
-    image: wsst2024,
+    images: [wsst2024],
   },
   /*{
     title: 'Linux System Control Module',
     description: 'A mini platform where beginners can track coding progress and goals.',
     tech: 'React · Node · MongoDB',
-    image: '/src/assets/linux-scm.jpg',
+    images: ['/src/assets/linux-scm.jpg'],
   },*/
   {
     title: 'Electric Bike Motor Controller',
@@ -68,6 +69,6 @@ export const projects = [
     ],
     tech: 'Student-Led Electric Bike Controls · Embedded Systems · STM32',
     repo: 'https://github.com/asmi-g/ElectriumFW',
-    image: ebike,
+    images: [ebike],
   },
 ]

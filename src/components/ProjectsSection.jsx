@@ -46,13 +46,17 @@ function ProjectsSection({ projects }) {
 
       {openProject === project.title && (
         <div className="mt-5 flex gap-5 rounded-lg border border-[#E9AFA3] bg-[#FAF3F0] p-4 shadow-sm">
-          <div className="w-1/2">
+        <div className="w-1/2 flex flex-col gap-3">
+          {project.images.map((image, index) => (
             <img
-              src={project.image}
-              alt={project.title}
+              key={index}
+              src={image}
+              alt={`${project.title} ${index + 1}`}
               className="w-full rounded-lg border border-[#E9AFA3] object-contain"
             />
-          </div>
+          ))}
+        </div>
+
 
           <div className="w-1/2 text-sm leading-relaxed text-[#685044]">
             {project.description.map((paragraph, index) => (
