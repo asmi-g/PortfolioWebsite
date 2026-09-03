@@ -1,8 +1,10 @@
 import wsst2026 from '../assets/wsst-2026-2.png'
 import wsst2026flight from '../assets/wsst-2026-flight.jpg'
 import moss from '../assets/moss.png'
-import astra from '../assets/astra-2.png'
+import astra from '../assets/astra.jpg'
+import astrateam from '../assets/astra-2.png'
 import wsst2024 from '../assets/wsst-2024.jpg'
+import wsst2024team from '../assets/wsst-2024-2.jpg'
 import ebike from '../assets/ebike-motorcontroller.png'
 
 export const projects = [
@@ -41,7 +43,7 @@ export const projects = [
                 ],
     tech: 'Novel RF Communication Filtering · Embedded Linux · Nvidia Jetson · Python',
     repo: 'https://github.com/asmi-g/ASTRA-GeneralRepo',
-    images: [astra],
+    images: [astra, astrateam],
   },
   {
     title: 'Soldering Centrifuge System 2024 (CANRGX7)',
@@ -53,7 +55,7 @@ export const projects = [
                 ],
     tech: 'Novel Space Soldering Solution · Embedded Systems · Arduino · STM32',
     repo: 'https://github.com/asmi-g/WSST-CentrifugeRepo',
-    images: [wsst2024],
+    images: [wsst2024, wsst2024team],
   },
   /*{
     title: 'Linux System Control Module',
